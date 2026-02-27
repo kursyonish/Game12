@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(200, 209, 232);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+h1 {
+    color: rgb(121, 94, 168);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    letter-spacing: 2px;
+}
+
+
+
+#go {
+    background: rgb(255, 73, 210);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#go:hover {
+    transform: translateY(-2px);
+}
+
+#go:active {
+    transform: translateY(0);
+}
+
+
+#Dice {
+    background: rgb(162, 130, 201);
+    padding: 20px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+#Dice input[type="button"] {
+    background: rgb(252, 217, 255);
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: bold;
+    color: #333;
+}
+
+#Dice input[type="button"]:hover {
+    background: #c798cc;
+    color: white;
+    transform: scale(1.05);
+}
+
+#Dice input[type="button"]:active {
+    transform: scale(0.95);
+}
+
+#GameField {
+    background: rgba(244, 233, 247, 0.9);
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 2;
+    min-height: 150px;
+}
+
+#GameField strong {
+    color: #007828;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.player-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    margin-right: 10px;
+}
+
