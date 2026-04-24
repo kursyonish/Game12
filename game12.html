@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game 12</title>
+</head>
+
+<body>
+    <h1>Игра в 12</h1>
+    <p>
+        Количество игроков:
+        <input type="number" id="numPlayers" min="2" max="8" value="2" />
+        <input type="button" value="Новая игра" id="newGame" />
+    </p>
+    <input type="button" value="Бросок" id="go" />
+    <hr>
+    <div id="Dice"> </div>
+    <hr>
+    <div id="GameField"></div>
+</body>
+<script src="game.js"></script>
+
+</html>
